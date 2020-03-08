@@ -1,0 +1,20 @@
+<div class="directiveCss">
+  <h2>
+    directive-example works!
+  </h2>
+  <p> 
+    1. Create a Text Item 
+    2. Create a Toggle button that shows or hide text 
+    3. Create a, array whose data is counter value after each click 
+    4. Create a Style Directive that shows blue color for items after 5
+    5. Create a class directive that shows white text for items after 5
+  </p>
+  <button (click)="toggleParagraph()">Display Details</button>
+  <p *ngIf="toggleButton">
+    This paragraph is meant to be toggled using NG IF. Lets see if this really works out
+  </p>
+
+  <div *ngFor="let item of toggleStatusArray; let i = index" 
+  [ngStyle]="{backgroundColor: item > 5 ? 'blue' : 'transparent'}"
+  [ngClass]="{'white-text': item >=5}">{{item}}</div>
+</div>

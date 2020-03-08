@@ -1,0 +1,55 @@
+.eventBindingClass{
+    margin: 8px;
+    background-color: lightblue;
+    padding: 16px;
+    border: 1px solid black;
+}
+.stringInterpolation{
+    margin: 8px;
+    background-color: rgb(230, 173, 195);
+    padding: 16px;
+    border: 1px solid black;
+}
+.timedButton{
+    margin: 8px;
+    background-color: rgb(144, 194, 159);
+    padding: 16px;
+    border: 1px solid black;
+}
+.twoWayBinding{
+    margin: 8px;
+    background-color: rgb(190, 144, 194);
+    padding: 16px;
+    border: 1px solid black;
+}
+.structureDirective{
+    margin: 8px;
+    background-color: rgb(153, 144, 194);
+    padding: 16px;
+    border: 1px solid black;
+}
+.attributeDirective{
+    margin: 8px;
+    background-color: rgb(187, 187, 187);
+    padding: 16px;
+    border: 1px solid black;
+}
+.attributeDirectiveOne{
+    margin: 8px;
+    background-color: rgb(100, 172, 190);
+    padding: 16px;
+    border: 1px solid black;
+}
+.attributeDirectiveTwo{
+    margin: 8px;
+    background-color: rgb(184, 99, 99);
+    padding: 16px;
+    border: 1px solid black;
+}
+.forDirective{
+    margin: 8px;
+    background-color: rgb(99, 184, 132);
+    padding: 16px;
+    border: 1px solid black;
+}
+

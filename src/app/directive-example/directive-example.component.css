@@ -1,0 +1,9 @@
+.directiveCss{
+    margin: 8px;
+    background-color: rgb(129, 128, 219);
+    padding: 16px;
+    border: 1px solid black;
+}
+.white-text{
+    color: white;
+}
